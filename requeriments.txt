@@ -1,1 +1,6 @@
 fastapi
+passlib
+jwt
+python-multipart
+
+
