@@ -2,5 +2,7 @@ fastapi
 passlib
 jwt
 python-multipart
+tortoise-orm
+
 
 
