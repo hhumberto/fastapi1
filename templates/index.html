@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the world</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h1>Estos son los valores {{ user }}</h1>
+        </div>
+        <div>
+            <form id="token" action="/token" method="post">
+
+                <input type="text" name="username" id="usernamet" value="">
+                <input type="password" name="password", id="password1" value="">
+                <button type="submit" id="btnsubmit" >Create token</button>
+
+
+            </form>
+            <form id="login" action="/data" method="post">
+
+                <input type="text" name="username" id="username" value="">
+                <input type="password" name="password", id="password" value="">
+                <button type="submit" id="btnsubmit" >Login</button>
+
+
+            </form>
+            <form id="createuser" action="/signup" method="post">
+
+                <input type="text" name="username" id="username" value="">
+                <input type="password" name="password", id="password" value="">
+                <button type="submit" id="btnsubmit" >Create User </button>
+
+
+            </form>
+            
+
+        </div>
+    </div>
+</body>
+</html>

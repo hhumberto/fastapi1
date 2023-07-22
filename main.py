@@ -4,6 +4,7 @@ from passlib.context import CryptContext
 from datetime import datetime, timedelta
 import jwt
 import random
+from passlib.hash import bcrypt
 
 SECRET_KEY = "AAx45.ZeRA"
 ALGORITHM = "HS256"
